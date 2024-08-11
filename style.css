@@ -1,0 +1,48 @@
+body{
+    background-color: pink;
+}
+#divall{
+    text-align: center;
+    margin: 10%;
+}
+#head1{
+    font-family:'Courier New', Courier, monospace;
+    font-style: italic;
+    font-size:  50px;
+}
+#userinput{
+    padding: 10px;
+    border-style:hidden;
+    border-radius: 15px;
+}
+#byt1{
+    padding: 10px;
+    border-style:hidden;
+    border-radius: 15px;
+    background-color: green;
+    color: white;
+}
+#byt1:hover{
+    background-color:blue;
+}
+ul li{
+    list-style-type: none;
+    font-family:'Courier New', Courier, monospace;
+    font-style: italic;
+    line-height: 6px;
+
+}
+ul button{
+    margin-left: 10px;
+    padding: 8px;
+    border-style:hidden;
+    border-radius: 15px;
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+    line-height: 6px;
+
+}
+ul button:hover{
+    background-color: red;
+}

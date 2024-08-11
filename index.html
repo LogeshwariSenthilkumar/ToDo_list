@@ -1,11 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css"/>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>todo list</title>
+    <link rel="icon" href="./images/todo_icon.png"/>
 </head>
 <body>
-    <h1>hello</h1>
+    <div id="divall">
+    <h1 id="head1">TODO LIST</h1>
+    <input type="text" placeholder="Write the notes" id="userinput"/>
+    <button onclick="addList()" id="byt1">Add to List</button>
+    <ul id="ulist">
+
+    </ul>
+    <script src="display.js"></script>
+    </div>
 </body>
 </html>
